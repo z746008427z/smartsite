@@ -1,0 +1,10 @@
+package com.hzy.smartsite.common.util;
+
+/**
+ * Created by hzy on 2017/9/10.
+ */
+public class StringHelper {
+    public static String getObjectValue(Object obj){
+        return obj==null?"":obj.toString();
+    }
+}
